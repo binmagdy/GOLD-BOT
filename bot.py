@@ -20,7 +20,7 @@ URL_SILVER   = "https://goldpricez.com/silver-rates/egypt"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 OZ_TO_GRAM = 31.1035
 TZ = ZoneInfo("Africa/Cairo")
-INTERVAL = 1800  # كل ساعة
+INTERVAL = 900  # كل ساعة
 # ============================================
 
 session = requests.Session()
